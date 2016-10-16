@@ -29,7 +29,7 @@ public class implementation1 {
 		+ age
 		+ " Jahre alt. Ich geniesse die Zeit an der "
 		+ university
-		+ " obschon ich "
+		+ ", obschon ich "
 		+ pet
 		+ " sehr vermisse.");
 		

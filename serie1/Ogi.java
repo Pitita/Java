@@ -3,15 +3,18 @@ package serie1;
 public class Ogi {
 
 	public static void main(String[] args) {
-		//javac Ogi.java
-		//java Ogi.java
-
-		System.out.print("Hellow");
-
+		/* 1. 
+		 * Kompilieren
+		 * javac Ogi.java
+		 * 
+		 * Ausführen
+		 * java Ogi
+		 */
+		
+		// 2.
 		System.out.print("Knowledge is Power");
-		System.out.println();
-		System.out.println();
 
+		// 2. zweite Version
 		System.out.println("Knowledge");
 		System.out.println();
 		System.out.println("is");
@@ -19,8 +22,7 @@ public class Ogi {
 		System.out.println("Power");
 		System.out.println();System.out.println();
 
-
-
+		// 3. & 4.
 		System.out.println(""
 				+ "\"Name:				Matt"
 				+ "\nGeburtstag:			24.02.1993"

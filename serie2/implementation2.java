@@ -19,10 +19,10 @@ public class implementation2 {
 		prod = num1 * num2;
 		quot = num1 / num2;
 		
-		System.out.println("Summe: "+ sum);
-		System.out.println("Differenz: " + diff);
-		System.out.println("Produkt: " + prod);
-		System.out.println("Quotient: " + quot);
+		System.out.println("Summe: \t\t"+ sum);
+		System.out.println("Differenz: \t" + diff);
+		System.out.println("Produkt: \t" + prod);
+		System.out.println("Quotient: \t" + quot);
 
 	}
 
