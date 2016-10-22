@@ -2,7 +2,7 @@ package serie2;
 
 import java.util.Scanner;
 
-public class main {
+public class aufgaben {
 
 	public static void main(String[] args) {
 	

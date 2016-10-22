@@ -21,7 +21,6 @@ public class Stringdemo {
 		String final_statement = s1.concat(s2).concat(s3).concat(s4);
 		System.out.print(final_statement.toUpperCase());
 		
-		
 		String str = "Space, the final frontier";
 		System.out.println (str.length());  // 25
 		System.out.println (str.substring(2,5)); //ace

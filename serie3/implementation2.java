@@ -1,32 +1,37 @@
 package serie3;
 
+import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.Random;
+
 public class implementation2 {
 
 	public static void main(String[] args) {
-		double random = Math.random() * 1000;
-		int n1 = 000, n2 = 000, n3 = 00, n4 = 00;
+		Random r = new Random();
+		DecimalFormat df1 = new DecimalFormat("000");
+		DecimalFormat df2 = new DecimalFormat("00");
+		ArrayList<Integer> al = new ArrayList<Integer>();
 		
-		String delimiter = "-";
+		al.add(r.nextInt(1000));
+		al.add(r.nextInt(1000));
+		al.add(r.nextInt(100));
+		al.add(r.nextInt(100));
 		
-		for(int i = 0; i<4; i++)
+		while(al.get(1) > 850)
 		{
-			if(n1 == 0 || n2 == 0 || n3 == 0 || n4 == 0)
-			{
-				n1 = (int) (Math.random() * 1000);
-				n2 = (int) (Math.random() * 1000);
-				n3 = (int) (Math.random() * 100);
-				n4 = (int) (Math.random() * 100);
-			}
-			
-			else if(n2>850)
-			{
-				n2 = (int) (Math.random() * 1000);
-			}
-			
+			al.set(1, r.nextInt(1000));
 		}
 		
-		System.out.print(n1 + delimiter + n2 + delimiter + n3 + delimiter + n4);
-
+		String s = "-";
+		
+		System.out.print(
+				  df1.format(al.get(0))
+				+ s
+				+ df1.format(al.get(1))
+				+ s
+				+ df2.format(al.get(2))
+				+ s
+				+ df2.format(al.get(3)));
 	}
 
 }

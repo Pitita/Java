@@ -33,7 +33,7 @@ public class implementation1 {
 		distance3 = p1.distance(p2);
 		
 		System.out.println(distance + "|" + distance2 + "|" + distance3);
-		w
+		
 	}
 
 }

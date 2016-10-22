@@ -1,6 +1,6 @@
 package serie1;
 
-public class Main {
+public class aufgaben {
 
 	public static void main(String[] args) {
 		
