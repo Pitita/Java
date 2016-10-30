@@ -1,4 +1,4 @@
-package serie4.implementation3;
+package serie4.imp3;
 
 public class Car {
 	
