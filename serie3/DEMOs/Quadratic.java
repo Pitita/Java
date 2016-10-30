@@ -1,4 +1,4 @@
-package serie3;
+package serie3.DEMOs;
 
 public class Quadratic {
 
