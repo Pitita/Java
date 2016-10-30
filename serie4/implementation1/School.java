@@ -1,6 +1,6 @@
-package serie4;
+package serie4.implementation1;
 
-import serie4.Student.Major;
+import serie4.implementation1.Student.Major;
 
 public class School {
 

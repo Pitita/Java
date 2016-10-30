@@ -1,8 +1,9 @@
-package serie4;
+package serie4.implementation2;
 
 import java.util.Scanner;
 
-import serie4.Student.Major;
+import serie4.implementation1.Student;
+import serie4.implementation1.Student.Major;
 
 public class Studentcontrol {
 
@@ -18,9 +19,8 @@ public class Studentcontrol {
 		System.out.print("MatrNr?");
 		int matrNr = s.nextInt();
 		
-		Student student = new Student(name, major, matrNr);
+		Student student = new Student(name, major, matrNr); // references serie4.implementation1.Student.Student()
 		System.out.println(student);
 
 	}
-
 }

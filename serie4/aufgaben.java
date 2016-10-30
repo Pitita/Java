@@ -1,6 +1,7 @@
 package serie4;
 
-import serie4.Student.Major;
+import serie4.implementation1.Student;
+import serie4.implementation1.Student.Major;
 
 public class aufgaben {
 	
@@ -36,11 +37,8 @@ public class aufgaben {
 		/* Aufgabe 3 */
 		
 		System.out.println("Aufgabe 3");
-		System.out.println(Integer.MAX_VALUE);
+		System.out.println(Integer.MAX_VALUE); // 2147483647
 		System.out.println("-------------------");
-		
-		int i = Integer.MAX_VALUE + 1;
-		System.out.println(i);
 		
 		/* Aufgabe 4 */
 		Double d = new Double(3.456);
@@ -79,12 +77,12 @@ public class aufgaben {
 		
 		/* Aufgabe 9
 		 * Das Objekt wird durch die Mehtode toString() ausgegeben;
+		 * BSP: 
 		 */
 		
 		System.out.println("Aufgabe 9");
 		Student s = new Student("Matt", Major.Info, 329874);
-		System.out.print(s);
-		System.out.println("-------------------");
+		System.out.print(s); // Matt | Info | 329874
 		
 		/* Aufgabe 10
 		 * Scope ist der der Bereich, in dem die Variable gültig ist. / Scope ist der Bereich, wo auf die Variable zugegriffen werden kann.

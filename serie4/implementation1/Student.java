@@ -1,8 +1,8 @@
-package serie4;
+package serie4.implementation1;
 
 public class Student {
 	
-	enum Major {Math, Info, Wi}
+	public enum Major {Math, Info, Wi}
 
 	// Studentenname
 	private String name;
@@ -23,7 +23,7 @@ public class Student {
 	
 	public String toString()
 	{
-		return name+major+matrNr;
+		return name + " | " + major + " | " + matrNr;
 	}
 	
 	// Getter
