@@ -69,14 +69,15 @@ public class aufgaben {
 		
 		/* Aufgabe 7 
 		 *  faceValue = 1
+		 *  final int MAX = 6
 		 *  diese Variabel wurden initialisiert und dies bezeichnet man als Instanzdaten. */
 		
 		/* Aufgabe 8 
 		 * roll()
-		 * setFaceValue()*/
+		 * setFaceValue() */
 		
 		/* Aufgabe 9
-		 * Das Objekt wird durch die Mehtode toString() ausgegeben;
+		 * Das Objekt wird durch die Methode toString() ausgegeben;
 		 * BSP: 
 		 */
 		
@@ -89,6 +90,9 @@ public class aufgaben {
 		 */
 		
 		/* Aufgabe 11
+		 * Riesen: Attributte dürfen von aussen nicht überschrieben werden. Private modifier verwenden!
+		 * Attribute dürfen nur via Setter-Methoden geändert werden.
+		 * 
 		 * Java ist eine objektorientierte Programmiersprache und im Normalfall wird man je nach Projekt nicht nur mit einer Klasse, sondern mit sehr vielen Klassen arbeiten. 
 		 * Wenn dann am Projekt nicht nur eine Person, sondern eine ganze Gruppe arbeitet, dann müssen im Programm selbst Vorkehrungen getroffen werden um mögliche Fehler schon im Vorhinein auszuschließen. 
 		 * Hilfreich ist dabei die sogenannte Datenkapselung
@@ -100,6 +104,8 @@ public class aufgaben {
 		 */
 		
 		/* Aufgabe 12
+		 * Riesen: Alle Methoden, die Public sind.
+		 * 
 		 * Ein Interface ist eine Schnittstelle, in der festgelegt wird, über welche Methoden die Klassen, die das Interface implementieren, verfügen müssen. 
 		 * Die Interfaces selber enthalten daher nur Funktionsköpfe und Konstanten. Alle Klassen, die das Interface implementieren, müssen sämtliche Methoden, die das Interface vorgibt, enthalten.
 		 * http://www.java-tutorial.org/objektorientierung-interfaces.html
