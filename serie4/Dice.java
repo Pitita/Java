@@ -53,8 +53,9 @@ public class Dice {
 	   return l * b * h;
    }
    
-   public int randomInRange(int l, int h){
+   public int randomInRange(int l, int h)
+   {
 	   Random r = new Random();
 	   return r.nextInt(h-l+1)+l;
-	   }
+   }
 }
