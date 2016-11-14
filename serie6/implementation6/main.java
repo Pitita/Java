@@ -1,5 +1,7 @@
 package serie6.implementation6;
 
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -9,7 +11,8 @@ public class main {
 
 		Scanner s = new Scanner (System.in);
 		Random r = new Random();
-		int r1, r2, answer, score=0, attempts=0;
+		int r1, r2, answer;
+		double score=0, attempts=0, quote;
 		boolean _continue = true;
 		
 		while(_continue)
@@ -29,7 +32,6 @@ public class main {
 			else
 			{
 				System.out.println("Falsch! :-(");
-				score--;
 				attempts++;
 			}
 			
@@ -38,8 +40,12 @@ public class main {
 			if(!s.nextBoolean())
 			{
 				_continue = false;
-				System.out.println("Punktzahl:" +score);
-				System.out.println("Qoute: " + score/attempts);
+				
+				System.out.println("Punktzahl: " + score + " von möglichen " + attempts);
+				
+				quote = score/attempts;
+				NumberFormat nf = NumberFormat.getPercentInstance();
+				System.out.println("Quote: " + nf.format(quote));
 			}
 		}
 		
