@@ -53,7 +53,7 @@ public class Bulb {
 		b2.switchBulb();
 		b4.switchOff();
 		
-		System.out.println(b1.toString() + b2 + b3 + b4);
+		System.out.println(b1.toString() + b2 + b3 + b4); // ***o
 
 	}
 
