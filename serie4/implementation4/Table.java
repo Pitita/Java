@@ -2,29 +2,29 @@ package serie4.implementation4;
 
 public class Table {
 	
-	private int länge, breite, höhe;
-	Material material;
+	private int lÃ¤nge, breite, hÃ¶he;
+	private Material material;
 	
-	public Table(int länge, int breite, int höhe, Material material){
-		this.länge = länge;
+	public Table(int lÃ¤nge, int breite, int hÃ¶he, Material material){
+		this.lÃ¤nge = lÃ¤nge;
 		this.breite = breite;
-		this.höhe = höhe;
+		this.hÃ¶he = hÃ¶he;
 		this.material = material;
 	}
 	
 	/* Getter */
-	public int getLänge(){ return länge; }
+	public int getLÃ¤nge(){ return lÃ¤nge; }
 	public int getBreite(){	return breite; }
-	public int getHöhe(){ return höhe; 	}
+	public int getHÃ¶he(){ return hÃ¶he; 	}
 	public Material getMaterial(){ return material; }
 	
 	/* Setter */
-	public void setLänge(int länge) { this.länge = länge; }
+	public void setLÃ¤nge(int lÃ¤nge) { this.lÃ¤nge = lÃ¤nge; }
 	public void setBreite(int breite) { this.breite = breite; }
-	public void setHöhe(int höhe) { this.höhe = höhe; }
+	public void setHÃ¶he(int hÃ¶he) { this.hÃ¶he = hÃ¶he; }
 	public void setMaterial(Material material) { this.material = material; }
 	
 	/* ToString */
-	public String toString() { return "L: " + länge + "\t | B: " + breite + "\t | H:" + höhe + "\t | Mat: " + material; }
+	public String toString() { return "L: " + lÃ¤nge + "\t | B: " + breite + "\t | H:" + hÃ¶he + "\t | Mat: " + material; }
 
 }
