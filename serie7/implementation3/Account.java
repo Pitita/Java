@@ -33,7 +33,7 @@ public class Account {
 	
 	public double withdraw(double amount, double fee)
 	{
-		if(amount+fee >= balance)
+		if(amount+fee <= balance)
 		{
 			balance = balance - amount - fee;
 		}
