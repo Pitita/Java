@@ -13,8 +13,34 @@ public class Account {
 		balance = initial;
 	}
 	
+	public Account (String owner, long account){
+		name = owner;
+		acctNumber = account;
+		balance = 0.0;
+	}
+	
 	public double deposit (double amount) {
-		balance = balance + amount;
+		if(amount > 0)
+		{
+			balance = balance + amount;
+		}
+		else
+		{
+			System.out.println("Error: negative Zahl!");
+		}
+		return balance;
+	}
+	
+	public double withdraw(double amount, double fee)
+	{
+		if(amount+fee >= balance)
+		{
+			balance = balance - amount - fee;
+		}
+		else
+		{
+			System.out.println("keine Auszahlung möglich!");
+		}
 		return balance;
 	}
 

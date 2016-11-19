@@ -2,7 +2,7 @@ package serie4.implementation1;
 
 public class Student {
 	
-	public enum Major {Math, Info, Wi}
+	public enum Major {Math, Info, Wi, Philosophie, Germanistik, Anglizistik, Linguistik, Boek, Psychologie, Warzenschweinissmus, Physik, Pokemonismus, GuckInDieLuftistik, LegendOfZeldinik, Xenobladetastisch, Phosphorforschung, Aquatik, Photosynthetik, Toxikologie }
 
 	// Studentenname
 	private String name;

@@ -1,4 +1,4 @@
-package serie7.ArrayListDEMO;
+package serie7.implementation2;
 
 public class Dog {
 	private int age;
