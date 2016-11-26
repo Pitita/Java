@@ -41,9 +41,9 @@ public class Task implements Priority, Comparable<Task> {
 		System.out.println(Task.getTaskCount()); // 3
 		
 		/* Implementation 3 */
-		System.out.println(t1.compareTo(t3)); // 0
+		System.out.println(t1.compareTo(t3)); // 12-9 = 3 // Ausgabe: 3
 		t3.setPriority(12);
-		System.out.println(t1.compareTo(t3)); // 1
+		System.out.println(t1.compareTo(t3)); // 12-12 = 0 // Ausgabe: 0
 		
 		/* Implementation 4 */
 		ArrayList<Task> tasklist = new ArrayList<Task>();
@@ -56,5 +56,21 @@ public class Task implements Priority, Comparable<Task> {
 		
 		for(int i=0;i<tasklist.size();i++)
 		System.out.println("Task"+(i+1)+" Prio: "+tasklist.get(i).priority);
+		
+		/* 	Ausgabe
+		  	Task1 Prio: 12
+			Task2 Prio: 4
+			Task3 Prio: 12
+			Task4 Prio: 8
+			Task5 Prio: 7
+			Task6 Prio: 6
+			---
+			Task1 Prio: 4
+			Task2 Prio: 6
+			Task3 Prio: 7
+			Task4 Prio: 8
+			Task5 Prio: 12
+			Task6 Prio: 12
+		 */
 	}
 }
