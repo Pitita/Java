@@ -1,4 +1,4 @@
-package serie4.implementation1;
+package serie9.implementation4;
 
 public class Student {
 	
@@ -27,7 +27,7 @@ public class Student {
 	}
 	
 	// Getter
-	public String getNames()
+	public String getName()
 	{
 		return name;
 	}
