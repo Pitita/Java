@@ -21,15 +21,14 @@ public class Menu {
 	}
 	
 	public String toString(){
-		String menu="**** LE MENU ****\n";
-		menu+="\n";
-		menu+=this.starter;
+		String menu = this.starter;
 		menu+="\n";
 		menu+=this.mainMenu;
 		menu+="\n";
 		menu+=this.dessert;
 		menu+="\n";
 		menu+=this.cost;
+		menu+="\n*****************\n";
 		return menu;
 		
 	}

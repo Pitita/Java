@@ -14,7 +14,7 @@ public class Menucard {
 	}
 	
 	public void print(){
-		System.out.println("ALL MENUS ON THIS CARD");
+		System.out.println("**** LE MENU ****\n");
 		for(int i = 0; i < menuCount; i++)
 			System.out.println(this.menus[i]);
 	}
@@ -22,6 +22,7 @@ public class Menucard {
 	public void insertMenu() {
 		if(this.menuCount<this.MAX_MENUS)
 		{
+			System.out.println("option2 selected!");
 			Scanner s = new Scanner(System.in);
 			
 			System.out.println("Starter?");
@@ -39,6 +40,7 @@ public class Menucard {
 		else
 		{
 			System.err.println("Menucard is complete!");
+			System.out.println("Your options: 1 = print menu card; 2 = insert menu; 3 = exit");
 		}
 	}
 	
@@ -51,20 +53,17 @@ public class Menucard {
 		int option = scan.nextInt();
 		
 		while(option!=3){
-			if(option==1)
-			{
+			if(option==1){
 				menucard.print();
-			if(option==2)
-			{
+			}
+			else if(option==2){
 				menucard.insertMenu();
 			}
 			
 			System.out.println("Your options: 1 = print menu card; 2 = insert menu; 3 = exit");
 			option=scan.nextInt();
 			
-			}
 		}
-
 	}
 
 }
