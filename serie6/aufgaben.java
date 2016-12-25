@@ -17,7 +17,7 @@ public class aufgaben {
 		 * */
 		
 		/* Aufgabe 2
-		 done		value>0		!done	(value>0||!done)
+			 done		value>0			!done		(value>0||!done)
 			f		f			w		w
 			f		w			w		w
 			w		f			f		f
@@ -25,9 +25,9 @@ public class aufgaben {
 		 */
 		
 		/* Aufgabe 3 
-		(a) num1 = 5 und num2 = 4 // red orange white green
-		(b) num1 = 5 und num2 = 12 // black blue green
-		(c) num1 = 5 und num2 = 27 // yellow green
+		(a) num1 = 5 und num2 = 4  // white green
+		(b) num1 = 5 und num2 = 12 // red orange black blue green
+		(c) num1 = 5 und num2 = 27 // red orange yellow green
 		 */
 		
 		/* Aufgabe 4 */
@@ -56,7 +56,7 @@ public class aufgaben {
 		
 		/* Aufgabe 6 */
 		String s1 = "", s2 = "";
-		s1.equals(s2); // Mittels STRING.equals können String Objekte miteinander verglichen werden;
+		s1.equals(s2); // Mittels STRING.equals kÃ¶nnen String Objekte miteinander verglichen werden;
 		System.out.println(s1.equals(s2)); // true
 		
 		/* Aufgabe 7 
